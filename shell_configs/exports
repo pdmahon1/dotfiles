@@ -1,0 +1,7 @@
+# default Brewfile location is ~/.config/brewfile/Brewfile
+export HOMEBREW_BREWFILE=~/.config/brewfile/Brewfile
+
+
+# for Flatpak updates
+export XDG_DATA_DIRS="/var/lib/flatpak/exports/share:$XDG_DATA_DIRS"
+export XDG_DATA_DIRS="/home/pete/.local/share/flatpak/exports/share:$XDG_DATA_DIRS"

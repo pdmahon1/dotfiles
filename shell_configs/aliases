@@ -1,0 +1,9 @@
+# Linux version of OSX pbcopy and pbpaste
+# USE: cat ~/.bashrc | pbcopy; pbpaste
+alias pbcopy=’xsel — clipboard — input’
+alias pbpaste=’xsel — clipboard — output’
+
+# have user confirm y/n before overwriting an existing file
+alias cp="cp -i"
+alias mv='mv -i'
+alias rm='rm -i'

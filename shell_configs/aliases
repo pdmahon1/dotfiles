@@ -1,4 +1,7 @@
-alias ltr='ls -ltr'
+alias ltr='ls -ltr --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
 
 # recursively removes .DS_Store files from a directory and its subdirectories
 alias rmds="find . -name '.DS_Store' -type f -delete"
